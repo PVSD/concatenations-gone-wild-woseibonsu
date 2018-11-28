@@ -12,6 +12,11 @@ public class Main {
 
     private static String cat(int start, int end)
     {
-        //Code goes here
+        StringBuffer ASCII = new StringBuffer();
+        for (int i = start; i <= end; i++)
+        {
+            ASCII.append((char)i);
+        }
+        return ASCII.toString();
     }
 }
